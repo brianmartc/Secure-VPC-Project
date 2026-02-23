@@ -48,3 +48,14 @@ chmod 400 secure-vpc-key.pem
 # Connect from public server → private server
 ssh -i secure-vpc-key.pem ec2-user@<Private-IP>
 
+```
+## Screenshots
+
+![Public Server](Images/EC2-Public.png)
+![Private Server](Images/EC2-Private.png)
+![Public Security Group](Images/Public-Server-SG.png)
+![Private Security Group](Images/Private-Server-sg.png)
+![SSH: Computer → Public Server](Images/SSH-Public-Server.png)
+![SSH: Public Server → Private Server](Images/SSH-Private-Server.png)
+![VPC Diagram](Images/Secure_VPC_Diagram.png)
+
